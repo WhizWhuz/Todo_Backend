@@ -1,0 +1,21 @@
+{
+  "name": "backend-todolist",
+  "version": "1.0.0",
+  "description": "backend Todo",
+  "main": "server.js",
+  "scripts": {
+    "dev": "npx nodemon index.js",
+    "prod": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
